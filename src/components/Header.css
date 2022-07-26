@@ -22,3 +22,17 @@ nav a {
   background-color: black;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 760px) {
+  nav {
+    display: block;
+    height: 180px;
+  }
+  .logo {
+    font-size: large;
+    margin: 0;
+  }
+  .media {
+    margin-left: 31px;
+  }
+}

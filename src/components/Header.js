@@ -11,9 +11,11 @@ export default function Header() {
         </Link>
       </div>
       <Search />
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/About">About</NavLink>
-      <NavLink to="/Contact">Contact Us</NavLink>
+      <div className="media">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/About">About</NavLink>
+        <NavLink to="/Contact">Contact Us</NavLink>
+      </div>
     </nav>
   );
 }
